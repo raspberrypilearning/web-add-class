@@ -1,59 +1,45 @@
-## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+You can add new CSS classes whenever you want to create a new style. Make sure you give the style a sensible name. 
 
-### What you will make
+Try to make sure your style is reusable and just contains properties that you will want to use together. 
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+![A photo of a beetle with a white boader which is larger at the bottom](images/beetle-photo.png)
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+This `photo` class creates a printed photo style that can be applied to an image.
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: CSS
+filename: style.css
+line_numbers: false
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+/* Printed photo style */
 
---- /collapse ---
+.photo {
+  border: 1px solid #D0D0D0; /* Add a solid border */
+  width: 14rem;
+  height: 15rem;
+  background: #ffffff;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 3rem;
+}
 
---- collapse ---
+--- /code ---
+
+--- code ---
 ---
-title: Additional information for educators
+language: HTML
+filename: index.html
+line_numbers: false
 ---
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
+<section>
+  <img class="photo" src="beetle.jpg">
+</section>
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+--- /code ---
 
---- /collapse ---
+
