@@ -25,6 +25,8 @@ line_numbers: false
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 3rem;
+  box-shadow: 8px 8px 10px 4px #888888; /* right and bottom shadow, blur, spread and colour */
+  transform: rotate(3deg);
 }
 
 --- /code ---
