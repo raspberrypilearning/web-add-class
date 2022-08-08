@@ -5,7 +5,7 @@ Try to make sure your style is reusable and just contains properties that you wa
 
 ![A beetle with a white border around it. The border is larger at the bottom.](images/beetle-photo.png)
 
-This `photo` class creates a printed photo-style border that can be applied to an image.
+This `photo` class creates a printed photo style that can be applied to an image.
 
 --- code ---
 ---
@@ -14,7 +14,7 @@ filename: style.css
 line_numbers: false
 ---
 
-/* Printed photo-style border */
+/* Printed photo style */
 
 .photo {
   border: 1px solid #D0D0D0; /* Add a solid border */
@@ -25,7 +25,7 @@ line_numbers: false
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 3rem;
-  box-shadow: 8px 8px 10px 4px #888888; /* right and bottom shadow, blur, spread and colour */
+  box-shadow: 8px 8px 10px 4px #888888; /* right and bottom shadow, blur, spread, and colour */
   transform: rotate(3deg);
 }
 
