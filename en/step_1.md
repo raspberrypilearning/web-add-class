@@ -1,9 +1,9 @@
 
 You can add new CSS classes whenever you want to create a new style. Make sure you give the style a sensible name. 
 
-Try to make sure your style is reusable and just contains properties that you will want to use together. 
+Try to make sure your style is reusable and just contains properties that you want to use together. 
 
-![A photo of a beetle with a white boader which is larger at the bottom](images/beetle-photo.png)
+![A beetle with a white border around it. The border is larger at the bottom.](images/beetle-photo.png)
 
 This `photo` class creates a printed photo style that can be applied to an image.
 
@@ -25,7 +25,7 @@ line_numbers: false
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 3rem;
-  box-shadow: 8px 8px 10px 4px #888888; /* right and bottom shadow, blur, spread and colour */
+  box-shadow: 8px 8px 10px 4px #888888; /* right and bottom shadow, blur, spread, and colour */
   transform: rotate(3deg);
 }
 
