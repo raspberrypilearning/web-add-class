@@ -1,0 +1,5 @@
+Add a solid border
+
+right and bottom shadow, blur, spread, and colour
+
+Printed photo style
