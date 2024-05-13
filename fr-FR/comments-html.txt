@@ -1,5 +1,5 @@
-Add a solid border
+Ajouter une bordure pleine
 
-right and bottom shadow, blur, spread, and colour
+ombre, flou, étalement et couleur à droite et en bas
 
-Printed photo style
+Style photo imprimée
