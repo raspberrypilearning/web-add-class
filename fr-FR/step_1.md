@@ -1,10 +1,10 @@
-You can add new CSS classes whenever you want to create a new style. Make sure you give the style a sensible name.
+Tu peux ajouter de nouvelles classes CSS chaque fois que tu veux créer un nouveau style. Veille à donner au style un nom judicieux.
 
-Try to make sure your style is reusable and just contains properties that you want to use together.
+Essaie de faire en sorte que ton style soit réutilisable et ne contienne que les propriétés que tu veux utiliser ensemble.
 
-![A beetle with a white border around it. The border is larger at the bottom.](images/beetle-photo.png)
+![Un scarabée entouré d'une bordure blanche. La bordure est plus large en bas.](images/beetle-photo.png)
 
-This `photo` class creates a printed photo style that can be applied to an image.
+Cette classe `photo` crée un style de photo imprimée qui peut être appliqué à une image.
 
 ## --- code ---
 
