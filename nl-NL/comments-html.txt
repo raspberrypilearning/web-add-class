@@ -1,5 +1,5 @@
-Add a solid border
+Voeg een effen rand toe
 
-right and bottom shadow, blur, spread, and colour
+schaduw rechts en onderaan, vervaging, spreiding en kleur
 
-Printed photo style
+Afgedrukte fotostijl
