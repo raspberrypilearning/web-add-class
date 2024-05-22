@@ -1,0 +1,5 @@
+Ajouter une bordure pleine
+
+ombre, flou, étalement et couleur à droite et en bas
+
+Style photo imprimée
